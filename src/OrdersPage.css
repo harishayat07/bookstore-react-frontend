@@ -1,0 +1,50 @@
+.orders-page {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.order-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  margin-bottom: 25px;
+  transition: all 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.order-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+.order-card li {
+  margin-bottom: 6px;
+}
+
+.status-select {
+  margin-top: 10px;
+}
+
+.status-select label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.status-select select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
